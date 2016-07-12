@@ -1,23 +1,25 @@
 # B2FIND-Training
 <img align="right" src="img/B2FIND.png" width="100px">
-This training module comprises detailed instructions about integration in and usage of the EUDAT metadata service *B2FIND* (version 2.0).
+This training module comprises detailed instructions on the  usage of the EUDAT metadata service *B2FIND* (version 2.0). We focus on two scenarios: 1) How to integrate your existing metadata with B2FIND and 2) how to use B2FIND. 
 
-Please consult the user [documentation on the services](https://eudat.eu/services/userdoc) for a general introduction in B2FIND, if needed, before following the contents of this git repository.
+Furthermore, we provide hands-on material for the whole metadata management workflow from metadata generation and formating, over providing and harvesting (using OAI-PMH ), to mapping and validation and finally uploading to a metadata catalogue and portal (based on CKAN). This workflow is shown together with the training modules in the figure below.
 
-Furthermore we provide hands-on material for the whole metadata management workflow from metadata generation and formating, over providing and harvesting (using OAI-PMH ), to mapping and validation and finally uploading to a metadata catalogue and portal (based on CKAN). This workflow is shown together with the training modules in the figure below.
+For a general introduction to B2FIND please consult the user [documentation on the services](https://eudat.eu/services/userdoc) before following the contents of this git repository.
 
 <img align="centre" src="img/MD_workflow.png" width="800px">
 
-We provide step by step installation instructions which indocate how the training services and tools are setup and which will give the users an idea how to install the software stack temselves. 
+We provide step-by-step installation instructions which indicate how the training services and tools are set up and which will give the users an idea how to install the software stack themselves. 
 
 This training material foresees three types of trainees: 
-* those who want to learn how to **integrate** the B2FIND service, i.e. data managers who want to publish their metadata within EUDAT,
-* those who want to **set up the whole metadata workflow**, including an OAI harvester service and an own CKAN portal, locally at their site. 
-* those who want to **use** the EUDAT B2FIND service, i.e. scientists who want to search and access research data. Following the full, in-depth tutorial will allow you to understand how the components of the whole metadata management workflow are combined and thus enables you to also extend the integration of the service B2FIND at the low-level (technology-level rather than API level). Following just the "use" part of the training will familiarise you with the query and search APIs of the services, but not with the underlying technology and its wiring.
+* Those who want to learn how to **integrate** the B2FIND service, i.e. data managers who want to publish their metadata within EUDAT,
+* Those who want to **set up the whole metadata workflow**, including an OAI harvester service and an own CKAN portal, locally at their site. 
+* Those who want to **use** the EUDAT B2FIND service, i.e. scientists who want to search and access research data. 
+
+Following the full, in-depth tutorial will allow you to understand how the components of the whole metadata management workflow are combined and thus enables you to also extend the integration of the service B2FIND at the low-level (technology-level rather than API level). Following just the "use" part of the training will familiarise you with the query and search APIs of the services, but not with the underlying technology and its wiring.
 
 The order of the markdown files in the table below proposes the curriculum of the training and the numbering of the files corresponds to the modules shown above. Each component takes about 0.5 to 1.0 hours.
 
-The appropriate parts of the tutorial you can follow in the training environment are labeled with "researchers", "data managers" and/or "site admins" in the column *Target audience* and for which purpuse which step is needed is assigned in the next column.
+The table below illustrates which parts of the tutorial are meant for which audience labeled with "researchers", "data managers" and/or "site admins" in the column *Target audience* and whether they are compulsory to follow further parts of the tutorial.
 
 File | Target audience | Purpose (required for)
 ------|-------------------|-------------------
@@ -45,7 +47,7 @@ Users can make use of a pre-deployed instance of this infratructure on the EUDAT
 -->
 
 The tutorial will show the functionality of single components and how to combine them in order to arrive at proper metadata management. 
-If you follow all steps of the training course you will aim in an infrastrucre as shown in the scheme below.
+If you follow all steps of the training course you will set up an infrastructure as shown in the scheme below.
 
 <img align="centre" src="img/VM-setup.png" width="800px">
 
